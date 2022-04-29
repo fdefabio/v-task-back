@@ -1,5 +1,9 @@
-package com.proyecto.vtb.vtaskback.Service.api;
+package com.proyecto.vtb.vtaskback.impl;
 
-public class ServiceImpl {
+import com.proyecto.vtb.vtaskback.Service.api.EstudianteServiceApi;
+import com.proyecto.vtb.vtaskback.commons.GenericServiceApi;
+import com.proyecto.vtb.vtaskback.estudiante.Estudiante;
+
+public class EstudianteServiceImpl extends GenericServiceApi <Estudiante , Long> implements EstudianteServiceApi {
 
 }

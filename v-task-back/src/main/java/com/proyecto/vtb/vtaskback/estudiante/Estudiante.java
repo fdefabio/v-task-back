@@ -3,18 +3,18 @@ package com.proyecto.vtb.vtaskback.estudiante;
 
 import org.springframework.data.annotation.Id;
 
-public class Esttudiante {
+public class Estudiante {
 
     @Id
     private Long   id;
     private String apellido;
     private String grupo;
 
-    public Esttudiante() {
+    public Estudiante() {
 
     }
 
-    public Esttudiante(Long id, String apellido, String grupo) {
+    public Estudiante(Long id, String apellido, String grupo) {
         this.id = id;
         this.apellido = apellido;
         this.grupo = grupo;

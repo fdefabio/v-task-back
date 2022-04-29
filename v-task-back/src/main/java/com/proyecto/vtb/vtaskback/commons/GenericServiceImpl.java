@@ -1,2 +1,5 @@
-package com.proyecto.vtb.vtaskback.commons;public class GenericServiceImpl {
+package com.proyecto.vtb.vtaskback.commons;
+
+public abstract class GenericServiceImpl {
+
 }
