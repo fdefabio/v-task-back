@@ -1,4 +1,4 @@
-package com.proyecto.vtb.vtaskback.estudiante;
+package com.proyecto.vtb.vtaskback.estudiante.model;
 
 
 import org.springframework.data.annotation.Id;
